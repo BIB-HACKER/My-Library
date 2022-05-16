@@ -1,0 +1,141 @@
+@import url('http://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(157, 157, 157);
+    width: 20vw;
+    font-family:'Courier New', Courier, monospace;
+    /* height: 100vh; */
+}
+.sidebar nav{
+    padding:13px;
+    display: flex;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 43px 0;
+    
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: white;
+    
+}
+.main{
+    /* background-color: rgb(248, 248, 165); */
+    width: 70vw;
+}
+.container{
+    display: flex;
+    /* background-color: rgb(50, 221, 50); */
+    /* mar/px; */
+    /* border: solid rgb(66, 58, 230) 6px; */
+    height: 100vh
+    
+}
+.infocontainer{
+    /* background-color: rgb(235, 226, 245); */
+    height: 60vh;
+    width: 58vw;
+    /* margin: auto; */
+    /* background-positioncenter; */
+    margin: 112px auto;
+    justify-content: space-around;
+    display: flex;
+}
+ul{
+    /* background-color: green; */
+    margin: 13px;
+    padding: 11px;
+}
+.divinfo{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 11px;
+}
+
+.hello{
+    font-size: 70px;
+    font-style:normal;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+font-size: 30px;
+}
+/* .buttons{
+    font-size-adj
+}; */
+
+.aboutmore{
+    font-size: 15px;
+    margin-top: 17px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.buttons{
+    margin-top: 40px;
+
+}
+/* .button{
+    font-size: 25px;
+} */
+
+.buttons button{
+    padding: 9px, 14px;
+    border-radius: 20px;
+    margin: 11px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26px;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+} 
+
+#emailhelp{
+    font-size: 8px;
+    color: mediumblue;
+    margin: 0 5px;
+}
+.divpic img{
+    /* margin: 45px; */
+    height: 50vh; 
+    /* width: 200px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin: 45px; */
+    padding: 33px;
+
+};
+

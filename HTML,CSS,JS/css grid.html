@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid (RESPONSESIV WEBSITE)</title>
+    <style>
+        .container{
+            display: grid;
+            background-color: rgb(30, 255, 0);
+            height: 43vh;
+            /* /* grid-row-gap: 9px; */
+            /* grid-column-gap: 17px;  */
+            grid-gap: 9px;
+                            /* this (GRID-GAP) is a shortcurt property (GRID- ROW-GAP & COLUMN-GAP) */
+            /* grid-template-columns: auto auto auto auto auto auto auto; */
+            grid-template-rows: 40px 40px 40px 40px 40px 40px 40px;
+             /* justify-content:center; */
+            align-content:flex-start;
+            grid-template-columns: auto auto auto auto;
+           
+
+        }
+        .item{
+            background-color: rgb(255, 0, 0);
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" style="grid-column: 1/5 ;">1</div>
+        <div class="item" style="grid-row: 2/5;">2</div>
+        <div class="item" style="grid-column: 1/4;">3</div>
+        <div class="item" style="grid-row: 3/5;">4</div>
+        <div class="item" style="grid-row: 2/4;">5</div>
+        <div class="item" style="grid-row: 2/6;">6</div>
+        <div class="item" style="grid-column: 2/5;">7</div>
+        <div class="item" style="grid-row: 6/8;">8</div>
+        <div class="item" style="grid-column: 2/4;">9</div>
+    </div>
+</body>
+</html>

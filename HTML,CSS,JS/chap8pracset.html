@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chap8prac</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 122px;
+            background-color: black;
+        }
+
+        main {
+            height: 619px;
+            background-color: blue;
+        }
+
+        .progress {
+            background-color: red;
+            height: 3px;
+            animation: load 3s ease 1 alternate;
+        }
+
+        @keyframes load {
+            0% {
+                width: .001vw;
+            }
+
+            /* 25%{
+                width: 25vw;
+            } */
+            /* 50%{
+                width: 50vw;
+            } */
+            /* 75%{
+                width: 75vw;
+            } */
+            100% {
+                width: 100vw;
+            }
+        }
+        @keyframes rotate {
+            0% {
+               transform: rotate(0deg);
+            }
+            100% {
+               transform: rotate(44444deg);
+            }
+        }
+
+        footer {
+            height:  48px;
+            background-color: green;
+        }
+        /* img{
+            animation: rotate 99s ease-in infinite;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header>
+    </header>
+    <main>
+        <img src="logo.png" width="322px">
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

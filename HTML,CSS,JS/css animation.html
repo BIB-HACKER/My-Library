@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 90vh;
+            width: 90vw;
+            background-color: aqua;
+        }
+        /* .box{
+            width: 251px;
+           
+            background-color: red;
+            color: white;
+            height: 330px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* animation-name: papon;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            animation-iteration-count: 7;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out; 
+            animation: papon 3s ease-in-out 1s 4 alternate;
+           } */
+            img{
+                animation: papon 2s ease-in-out 1s 22 alternate;
+
+            }
+        
+        @keyframes papon {
+            0%{
+                width: 100px;
+                height: 100px;
+            }
+            25%{
+                width: 25vw;
+                height: 25vh;
+            }
+            50%{
+                width: 50vw;
+                height: 50vh;
+            }
+            75%{
+                width: 75vw;
+                height: 75vh;
+            }
+            100%{
+                width: 700px;
+                height: 97vh;
+            }
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="box"> -->
+            <img src="IMG_20211110_114836~2-02.jpeg" width="100px" height="100vh">
+        </div>
+        <!-- </div> -->
+</body>
+</html>

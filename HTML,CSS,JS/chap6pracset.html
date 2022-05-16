@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 6 practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            padding: 12px;
+            border: solid rgb(244, 44, 255);
+            text-align: right;
+            background-color: blue;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-size: 34px;
+        }
+
+        header {
+            background-color: rgb(214, 221, 89);
+            color: white;
+            /* height: 34px; */
+            text-align: center;
+            /* position: relative; */
+            /* border:solid darkred; */
+
+
+        }
+
+        /* .box{
+            width: 2px;
+            height: 2px;
+            background-color: rgb(43, 255, 0);
+            color: white;
+            /position: relative; 
+            position: absolute;
+            top: 3;
+            right: 5;
+
+        } */
+        .right {
+            background-color: tomato;
+            height: 367px;
+            width: 234px;
+            float: left;
+            border: solid black;
+        }
+
+        .left {
+            background-color: teal;
+            height: 367px;
+            width: 234px;
+            float: right;
+            border: solid black;
+        }
+
+        .botom {
+            background-color: rgb(36, 97, 230);
+            height: 367px;
+            width: 234px;
+            float: none;
+            clear: both;
+            border: solid black;
+        }
+
+        .container {
+            height: 91vh;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: flex-end;
+            /* align-content:space-around; */
+            background-color: rgb(7, 70, 7);
+            color: rgb(0, 0, 0);
+            background: url(image.jfif) no-repeat top;
+            
+            /* background-image: 45px 34px; */
+            background-size: 97vw 40vh;
+
+            /* justify-content: last baseline; */
+            /* content: inherit; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sequi reiciendis
+                odio alias enim illum dignissimos? Molestiae magni voluptatum nesciunt velit voluptates officia dicta,
+                rerum asperiores delectus consectetur optio corporis.</div>
+            <div class="left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fghtfhjgbeatae
+                voluptatum officia numquam. Quia quod sapiente libero inventore,</div>
+            <div class="botom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum beatae voluptatum
+                officia numquam. Quia quod sapiente libero inventore,</div>
+            <!-- <div class="box">MAN</div> -->
+        </header>
+        </div>
+</body>
+
+</html>

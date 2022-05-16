@@ -1,0 +1,30 @@
+/* body{ background-color:cyan;} */
+/* body{
+    background-color:cyan;
+} */
+/* #first{
+    background-color: darkgreen;
+    color: white;
+}
+#second{
+    background-color: darkmagenta;
+    color: darkseagreen;
+}
+.red{
+    background-color: brown;
+    color: cyan;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background: rgb(240, 54, 54);
+    height: 350px;
+    color: rgb(73, 70, 70);
+
+}
+.green{
+    background-color: chartreuse;
+    color: rgb(138, 46, 15);
+}
