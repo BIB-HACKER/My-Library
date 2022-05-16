@@ -1,0 +1,6 @@
+f = open('another.txt','w')
+f.write("I am appending")
+f.write("I am appending")
+f.write("I am appending")
+f.write("I am appending")
+f.close()
