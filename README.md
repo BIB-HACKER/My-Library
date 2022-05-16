@@ -1,2 +1,2 @@
-# Enjoy your codING [^_^]
+# EnJOY your CODing [^_^]
    <beginner to intermidated>
