@@ -2,7 +2,7 @@
 <h3 align="center">Electronics Engineer | Coder | Entrepreneur | Traveler</h3>
 <img alt="Coding" align="left" width="300" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"  />
 
-<p align="left"> <a href="https://twitter.com/mesayandeep" target="blank"><img src="https://img.shields.io/twitter/follow/mesayandeep?logo=twitter&style=for-the-badge" alt="mesayandeep" /></a> </p>
+<p align="left"> <a href="https://twitter.com/Bibhakar paul" target="blank"><img src="https://img.shields.io/twitter/follow/Bibhakar paul?logo=twitter&style=for-the-badge" alt="mesayandeep" /></a> </p>
 
 - 🌱 I’m currently study on **learning**
 
