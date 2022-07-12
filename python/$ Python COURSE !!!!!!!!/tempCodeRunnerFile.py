@@ -365,14 +365,73 @@
 # print(op)
     
 ################################
-l = input("enter a sentence")
-word = l.split()
-list=[]
-o=0
-for i in word:
-    o = len(i)-1
-    list.append(word[o])
-    list.sort()
-print(list)
+# l = input("enter a sentence")
+# word = l.split()
+# list=[]
+# o=0
+# for i in word:
+#     o = len(i)-1
+#     list.append(word[o])
+#     list.sort()
+# print(list)
+
+######################
+
+# import math
+# class Plane:
+#     def __init__(self,x1,y1):
+#         self.x1=x1
+#         self.y1=y1
+#     def show(self):
+#         print("the first coordinate is=(",self.x1,",",self.y1,")")
+# class Circle(Plane):
+#     def __init__(self,x1,y1,x2,y2):
+#         self.x2=x2
+#         self.y2=y2
+#         Plane.__init__(self,x1,y1)
+        
+#     def findradius(self):
+#         self.r=(math.sqrt(self.x2-self.x1)**2 + (self.y2 - self.y1)**2)/2
+    
+#     def findarea(self):
+#         self.A=(math.pi*self.r*self.r)
+
+#     def show(self):
+#         print(f"Length of the radius is {self.r} and are of the circle is {self.A}")
+
+# obj1=Plane(4,6)
+# obj1.show()
+# obj2=Circle(4,8,6,2)
+# obj2.findradius()
+# obj2.findarea()
+# obj2.show()
 
 
+##########################################################
+
+# import array as A
+# list=[34,-5,-6,-7,2]
+# obj=A.array('i',list)
+
+# for i in range(0,obj.itemsize):
+#     if i<0:
+#        print(i,end=" ")
+#     if i>0:
+#         print(i,end=" ")
+
+#################################
+
+# class Solution:
+#     def __init__(self,List, target):
+#         self.List=List
+#         self.target=target
+        
+#     def display(self):
+#         l=[]
+#         for i in range(len(self.List)):
+#             if self.List[i]+self.List[i+1]==self.target:
+#                 return first_index
+# List = [2,7,11,15]
+# # target = 6            
+# obj=Solution([2,7,11,15],9)
+# print(obj.display())
