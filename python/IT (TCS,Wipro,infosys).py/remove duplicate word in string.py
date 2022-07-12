@@ -22,6 +22,7 @@ def remove(string):
         if l.count(l[x])==1:   
             list.append(l[x])
             list.sort()
+            print(list)
     return ' '.join(list)
 
 string="Next Time There Won't Be A Next Time"

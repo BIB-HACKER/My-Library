@@ -22,14 +22,14 @@ for i in range(0,len(letter)):
             rev.append((ord(letter[i])-1))
     
 # print(rev)
-add=[]
-for i in rev:
-    add.append(chr(i))
+# add=[]
+# for i in rev:
+#     add.append(chr(i))
 # print(add)
 
 alt=""
-for i in add:
-    alt+=i
+for i in rev:
+    alt+=chr(i)
 print()
 print(f"So,{letter} will be coded as {alt}.")
 # for i in save:

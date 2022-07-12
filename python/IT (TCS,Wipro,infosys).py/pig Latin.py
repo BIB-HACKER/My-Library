@@ -1,16 +1,21 @@
 #pig latin
 
-child=input("enter a word :")
-add="ay"
-last=""
-fast=""
-for i in range(0,len(child)):
-   if child[0]=="aeiouAEIOU":
-       
-       
-   else:
-     last=child[0]
-     first=child[1:]
+word=input("enter a word :")
+# word=word.upper()
+length=len(word)
+add="aeiou"
+ADD="AEIOU"
 
-print(first+last+add)
+for i in range(length):
+  ch=word[i]
+  if ch in add:
+    op=word[i:length]+word[0:i]+"ay"
+    print("piglatin word is=",op)
+    break
+  if ch in ADD:
+    op=word[i:length]+word[0:i]+"AY"
+    print("piglatin word is=",op)
+    break
+else:
+  print("piglatin word is not possible")
     
